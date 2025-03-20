@@ -1,3 +1,16 @@
+/**
+* @file AESWrapper.cpp
+* @brief Implementation of the AESWrapper class for the MessageU project.
+* 
+* This file implements the methods for generating a random key, encrypting and decrypting messages
+* using the AES algorithm.
+* 
+* @version 2.0
+* @author Dmitriy Gorodov
+* @id 342725405
+* @date 19/03/2025
+*/
+
 #include "AESWrapper.h"
 
 #include <modes.h>

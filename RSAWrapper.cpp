@@ -1,5 +1,17 @@
-#include "RSAWrapper.h"
+/**
+* @file RSAWrapper.cpp
+* @brief Implementation of the RSAWrapper class for the MessageU project.
+* 
+* This file implements the methods for generating RSA keys, encrypting and decrypting messages
+* using the RSA algorithm.
+* 
+* @version 2.0
+* @author Dmitriy Gorodov
+* @id 342725405
+* @date 19/03/2025
+*/
 
+#include "RSAWrapper.h"
 
 RSAPublicWrapper::RSAPublicWrapper(const char* key, unsigned int length)
 {

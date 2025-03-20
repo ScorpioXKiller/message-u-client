@@ -36,6 +36,9 @@
     <ClCompile Include="ResponseHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AESWrapper.h">
@@ -56,9 +59,21 @@
     <ClInclude Include="ResponseHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="server.info">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="my.info">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="alex.info">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="README.md">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

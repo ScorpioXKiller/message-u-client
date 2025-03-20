@@ -1,3 +1,16 @@
+/** 
+ * @file RSAWrapper.h
+ * @brief Declaration of the RSAWrapper class for the MessageU project.
+ *
+ * This header file declares the RSAWrapper class, which provides encryption and decryption
+ * functionality using the RSA algorithm.
+ *
+ * @version 2.0
+ * @author Dmitriy Gorodov
+ * @id 324725405
+ * @date 19/03/2025
+ */
+
 #pragma once
 
 #include <osrng.h>

@@ -139,6 +139,7 @@
     <ClCompile Include="RequestBuilder.cpp" />
     <ClCompile Include="ResponseHandler.cpp" />
     <ClCompile Include="RSAWrapper.cpp" />
+    <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AESWrapper.h" />
@@ -147,8 +148,12 @@
     <ClInclude Include="RequestBuilder.h" />
     <ClInclude Include="ResponseHandler.h" />
     <ClInclude Include="RSAWrapper.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="my.info" />
+    <None Include="alex.info" />
+    <None Include="README.md" />
     <None Include="server.info" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

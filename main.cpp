@@ -1,3 +1,16 @@
+/**
+ * @file main.cpp
+ * @brief Entry point for the MessageU client application.
+ *
+ * Reads the server configuration from "server.info", creates a Client object,
+ * and starts the client.
+ * 
+ * @version 2.0
+ * @author Dmitriy Gorodov
+ * @id 342725405
+ * @date 19/03/2025
+ */
+
 #include "Client.h"
 #include <iostream>
 #include <fstream>
@@ -6,11 +19,12 @@
 #include <string>
 #include <vector>
 #include <stdexcept>
-#include <algorithm>
 #include <boost/asio.hpp>
 
-int main() {
-	try {
+int main() 
+{
+	try 
+	{
 		std::ifstream server_info_file("server.info");
 		if (!server_info_file)
 			throw std::runtime_error("Unable to open server.info for reading.");
@@ -25,7 +39,8 @@ int main() {
 		Client client(server_ip, server_port);
 		client.run();
 	}
-	catch (const std::exception& e) {
+	catch (const std::exception& e) 
+	{
 		std::cerr << "Error: " << e.what() << "\n";
 	}
 
